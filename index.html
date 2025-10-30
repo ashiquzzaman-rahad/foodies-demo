@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies</title>
+    <!-- ======== External CSS ======== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ======== Google Fonts ======== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ======== Fontawesome ======== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ======== Header + Hero section start ======== -->
+    <section class="header-hero">
+      <!-- ======== header section start ======== -->
+      <header>
+        <div class="header-section">
+          <div class="logo">Foodies</div>
+          <nav>
+            <div class="hambergur-menu" onclick="openMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="navbar">
+              <li class="nav-item"><a href="#" id="selected">Home</a></li>
+              <li class="nav-item"><a href="#">About Us</a></li>
+              <li class="nav-item"><a href="#">Service Us</a></li>
+              <li class="nav-item"><a href="#">Our Company</a></li>
+              <li class="nav-item"><a href="#">Pages</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- ======== header section end ======== -->
+
+      <!-- ======== hero section start ======== -->
+      <section class="hero-section">
+        <div class="hero">
+          <div class="hero-texts">
+            <h1 class="hero-title">We're Serious For Food.</h1>
+            <p class="hero-subtitle">
+              We strive to provide a space where guests can connect with
+              themselves and explore their full potential, offering a safe
+              place.
+            </p>
+            <div class="hero-btn">
+              Get Started &nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="hero-imgs">
+            <img
+              src="./images/hero-img.png"
+              class="hero-img"
+              alt="girl cooking foods"
+            />
+            <img src="./images/Polcadot.png" class="polcadot" alt="design" />
+          </div>
+        </div>
+        <div class="rating">
+          5.0 Ratings
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="review">
+          <img src="./images/hero-small-img.png" alt="customer" />
+          <span>&nbsp;Good Quality Product</span>
+        </div>
+      </section>
+      <!-- ======== hero section end ======== -->
+    </section>
+    <!-- ======== Header + Hero section end ======== -->
+
+    <!-- ======== Brand logo section end ======== -->
+    <section class="brand-logos-section">
+      <div class="brand-logos">
+        <div class="brand-logo">
+          <img src="./images/hero-logo-1.png" alt="logo" />
+        </div>
+        <div class="brand-logo">
+          <img src="./images/hero-logo-2.png" alt="logo" />
+        </div>
+        <div class="brand-logo">
+          <img src="./images/hero-logo-3.png" alt="logo" />
+        </div>
+      </div>
+    </section>
+    <!-- ======== Brand logo section end ======== -->
+
+    <!-- ======== Service section start ======== -->
+    <section class="service-section">
+      <div class="services">
+        <div class="service-card">
+          <div class="service-logo">
+            <i class="fa-solid fa-truck"></i>
+          </div>
+          <div class="service-texts">
+            <h2 class="service-title">Free Shipping</h2>
+            <p class="service-desc">Orders over $140</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-logo">
+            <i class="fa-solid fa-wallet"></i>
+          </div>
+          <div class="service-texts">
+            <h2 class="service-title">Quick Payment</h2>
+            <p class="service-desc">100% secure payment</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-logo">
+            <i class="fa-solid fa-percent"></i>
+          </div>
+          <div class="service-texts">
+            <h2 class="service-title">Special Promo</h2>
+            <p class="service-desc">Get special promo</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-logo">
+            <i class="fa-solid fa-headphones"></i>
+          </div>
+          <div class="service-texts">
+            <h2 class="service-title">24/7 Support</h2>
+            <p class="service-desc">Ready support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== Service section end ======== -->
+
+    <!-- ======== Benefit section Start ======== -->
+    <section class="benefit-section">
+      <div class="benefit">
+        <div class="benefit-img">
+          <img
+            src="./images/benefit-img.png"
+            alt="foods"
+            id="mobile-benefit-img"
+          />
+          <img
+            src="./images/pc-benefit-img.png"
+            alt="foods"
+            id="pc-benefit-img"
+          />
+        </div>
+        <div class="benefit-img-back"></div>
+        <div class="benefit-desc">
+          <div class="benefit-texts">
+            <p class="benefit-mini-title">Our Benefit</p>
+            <h2 class="benefit-title">The More Healthy Food The Better</h2>
+          </div>
+          <div class="benefit-list">
+            <ul class="benefits">
+              <li class="benefit">
+                <i class="fa-solid fa-check"></i>
+                Be Alive With Veggie Food.
+              </li>
+              <li class="benefit">
+                <i class="fa-solid fa-check"></i>
+                It's The Place To Be.
+              </li>
+              <li class="benefit">
+                <i class="fa-solid fa-check"></i>
+                Nonstop Veggie Food.
+              </li>
+              <li class="benefit">
+                <i class="fa-solid fa-check"></i>
+                The Best Silk Dish In Town.
+              </li>
+              <li class="benefit">
+                <i class="fa-solid fa-check"></i>
+                Truffles, Egg & Pumpkin Spice.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== Benefit section end ======== -->
+
+    <!-- ======== Testimonial section start ======== -->
+    <section class="testimonial-section">
+      <div class="testimonial">
+        <div class="testimonial-imgs">
+          <img
+            src="./images/testimonial-img.png"
+            alt="foods"
+            id="mobile-testimonial-img"
+          />
+          <img
+            src="./images/pc-testimonial-img.png"
+            alt="foods"
+            id="pc-testimonial-img"
+          />
+        </div>
+        <div class="testimonial-img-back"></div>
+        <div class="testimonial-text-sections">
+          <div class="testimonial-texts">
+            <p class="testimonial-minititle">Our Stars</p>
+            <h2 class="testimonial-title">Veggie Food Goes On And Always On</h2>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <p class="stat-num">1,500</p>
+              <p class="stat-desc">Sold Product</p>
+            </div>
+            <div class="stat">
+              <p class="stat-num">500</p>
+              <p class="stat-desc">Possitive Feedback</p>
+            </div>
+            <div class="stat">
+              <p class="stat-num">400</p>
+              <p class="stat-desc">Official Store</p>
+            </div>
+          </div>
+          <div class="testimonial-btn">
+            Get Special Promo
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== Testimonial section end ======== -->
+
+    <!-- ======== Features section start ======== -->
+    <section class="features-section">
+      <div class="features-texts">
+        <p class="features-minititle">Our Features</p>
+        <h2 class="features-title">Variety Of Foods</h2>
+      </div>
+      <div class="features">
+        <div class="set-up">
+          <div class="feature-set1">
+            <div class="feature-img">
+              <img src="./images/feature-img-1.png" alt="foods" />
+            </div>
+            <div class="feature-card">
+              <h3 class="feature-title">Veggies Are Forever</h3>
+              <p class="feature-desc">We offer the following services</p>
+              <div class="feature-btn">
+                Discover Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="feature-set2">
+            <div class="feature-img">
+              <img src="./images/feature-img-2.png" alt="foods" />
+            </div>
+            <div class="feature-card">
+              <h3 class="feature-title">Good For Your Skin</h3>
+              <p class="feature-desc">We offer the following services</p>
+              <div class="feature-btn">
+                Discover Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="set-down">
+          <div class="feature-set3">
+            <div class="feature-img">
+              <img src="./images/feature-img-3.png" alt="foods" />
+            </div>
+            <div class="feature-card">
+              <h3 class="feature-title">Veggie Food Groove</h3>
+              <p class="feature-desc">We offer the following services</p>
+              <div class="feature-btn">
+                Discover Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="feature-set4">
+            <div class="feature-img">
+              <img src="./images/feature-img-4.png" alt="foods" />
+            </div>
+            <div class="feature-card">
+              <h3 class="feature-title">That Comes Close</h3>
+              <p class="feature-desc">We offer the following services</p>
+              <div class="feature-btn">
+                Discover Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== Features section end ======== -->
+
+    <!-- ======== Product section start ======== -->
+    <section class="product-section">
+      <div class="product-texts">
+        <p class="product-minititle">Our Product</p>
+        <h2 class="product-title">Most Popular Product</h2>
+      </div>
+      <div class="product-cards">
+        <div class="product-card card1">
+          <div class="product-img">
+            <img src="./images/banana.png" alt="Summer Veganie" />
+          </div>
+          <div class="product-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="product-name">Summer Veganie</div>
+          <div class="product-price"><del>$25</del> $29</div>
+          <div class="product-btn">
+            Buy Now &nbsp; &nbsp;
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="./images/papaya.png" alt="Greanie Seafood" />
+          </div>
+
+          <div class="product-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="product-name">Greanie Seafood</div>
+          <div class="product-price"><del>$25</del> $29</div>
+          <div class="product-btn">
+            Buy Now &nbsp; &nbsp;
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="./images/avocado.png" alt="Fresh Vegetable" />
+          </div>
+
+          <div class="product-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="product-name">Fresh Vegetable</div>
+          <div class="product-price"><del>$25</del> $29</div>
+          <div class="product-btn">
+            Buy Now &nbsp; &nbsp;
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="./images/orange.png" alt="Fresh Meatyus" />
+          </div>
+
+          <div class="product-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="product-name">Fresh Meatyus</div>
+          <div class="product-price"><del>$25</del> $29</div>
+          <div class="product-btn">
+            Buy Now &nbsp; &nbsp;
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== Product section end ======== -->
+
+    <!-- ======== Order section start ======== -->
+    <section class="order-section">
+      <div class="order"></div>
+      <div class="filter"></div>
+      <div class="order-text">Veggie Foods? Ingredients You Want To Try</div>
+      <div class="order-btn">
+        Get Started &nbsp; &nbsp;
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </section>
+    <!-- ======== Order section end ======== -->
+
+    <!-- ======== Footer section start ======== -->
+    <footer>
+      <div class="footer-section">
+        <div class="footer-top">
+          <div class="primary-footer">
+            <h1 class="footer-logo">Foodies</h1>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor
+            </p>
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook-f"></i> &nbsp; &nbsp;
+              <i class="fa-brands fa-instagram"></i> &nbsp; &nbsp;
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <div class="about-us">
+            <h2 class="about-us-title">About Us</h2>
+            <ul class="about-list">
+              <li class="about-item"><a href="#">About Us</a></li>
+              <li class="about-item"><a href="#">Service Us</a></li>
+              <li class="about-item"><a href="#">Contact</a></li>
+              <li class="about-item"><a href="#">Company</a></li>
+            </ul>
+          </div>
+          <div class="company">
+            <h2 class="company-title">Company</h2>
+            <ul class="company-list">
+              <li class="company-item"><a href="#">Partnership</a></li>
+              <li class="company-item"><a href="#">Terms of Use</a></li>
+              <li class="company-item"><a href="#">Privacy</a></li>
+              <li class="company-item"><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h2 class="contact-title">
+              Get in touch
+            </h2>
+            <p class="contact-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </p>
+            <form action="">
+              <input type="email" name="email" id="email" placeholder="Email">
+              <div class="form-btn">Subscribe</div>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          Copyright &copy; 2021 Foodies.
+        </div>
+      </div>
+    </footer>
+    <!-- ======== Footer section end ======== -->
+
+    <!-- ======== External Script ======== -->
+    <script src="script.js"></script>
+  </body>
+</html>
