@@ -162,6 +162,13 @@ a {
   cursor: pointer;
   font-weight: 400;
   margin-bottom: 5vh;
+  border: 1px solid var(--primary-color);
+  transition: 0.3s ease all;
+}
+
+.hero-btn:hover{
+  color: var(--primary-color);
+  background-color: white;
 }
 
 .hero-img {
@@ -634,6 +641,13 @@ a {
   margin: 0 auto;
   text-align: center;
   cursor: pointer;
+  border: 1px solid var(--primary-color);
+  transition: 0.3s ease all;
+}
+
+.testimonial-btn:hover{
+  color: var(--primary-color);
+  background-color: white;
 }
 
 /* pc */
@@ -910,6 +924,12 @@ a {
   color: var(--primary-color);
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.product-btn:hover{
+  color: white;
+  background-color: var(--primary-color);
 }
 
 .product-card:hover {
@@ -1002,6 +1022,14 @@ a {
   bottom:200vw;
   left: 11vw;
   cursor: pointer;
+  /* border: 1px solid var(--primary-color); */
+  transition: 0.3s ease all;
+}
+
+.order-btn:hover{
+  color: var(--primary-color);
+  background-color: white;
+  border-radius: 1vw;
 }
 
 /* pc */
@@ -1134,6 +1162,14 @@ input[type="email"]:focus {
   margin: 0 auto;
   padding: 2vh 0;
   color: white;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  transition: 0.3s ease all;
+}
+
+.form-btn:hover{
+  color: var(--primary-color);
+  background-color: white;
 }
 
 .footer-bottom {
@@ -1181,6 +1217,11 @@ input[type="email"]:focus {
     flex: 1.5;
     /* border: 2px solid black; */
     text-align: left;
+  }
+  
+  .contact-text{
+    /* border: 2px solid black; */
+    margin-left: 0;
   }
 
   .form-btn {
